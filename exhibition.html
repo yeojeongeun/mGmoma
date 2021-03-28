@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta  name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+    <meta name = "format-detection" content="telephone=no">
+    <meta name="description" content="경기도미술관 - 경기도미술관">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="경기도미술관 - 경기도미술관">
+    <meta property="og:url" content="http://euuuunee810.dothome.co.kr/gmoma/">
+    <meta property="og:image" content="http://euuuunee810.dothome.co.kr/gmoma/images/site_icon.png">
+    <meta property="og:description" content="경기도미술관 - 경기도미술관">
+    <title>경기도미술관 - 경기도미술관 현재전시</title>
+    <link rel="apple-touch-icon-precomposed" href="ios_icon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico?v=1">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/common.css?v=<?php echo time(); ?>">
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+</head>
+<body>
+    <div id="skipNavi">
+        <a href="#container">본문바로가기</a>
+    </div>
+    <div id="wrap">
+        <header id="header">
+            <h1 class="logo"><a href="index.html"><img src="images/logo.png" alt="logo"></a></h1>
+            <button class="btn_search" type="button">검색창열기</button>
+            <button class="btn_menu" type="button">메뉴열기</button>
+            <nav class="gnb_wrap">
+                <div class="top_gnb">
+                    <h3 class="logo"><a href="index.html"><img src="images/logo_w.png" alt="logo"></a></h3>
+                    <button class="btn_close" type="button">메뉴닫기</button>
+                </div>
+                <div class="bottom_gnb">
+                    <ul class="gnb">
+                        <li>
+                            <a href="#">Museum</a>
+                            <ul class="depth2">
+                                <li><a href="about.html">소개</a></li>
+                                <li><a href="#">연혁</a></li>
+                                <li><a href="#">시설안내</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Visit</a>
+                            <ul class="depth2">
+                                <li><a href="visit.html">관람안내</a></li>
+                                <li><a href="#">오시는길</a></li>
+                                <li><a href="#">FAQ</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Exhibitions</a>
+                            <ul class="depth2">
+                                <li><a href="exhibition.html">현재전시</a></li>
+                                <li><a href="#">예정전시</a></li>
+                                <li><a href="#">지난전시</a></li>
+                                <li><a href="#">소장품</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Programs</a>
+                            <ul class="depth2">
+                                <li><a href="#">교육 프로그램</a></li>
+                                <li><a href="#">이벤트</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">News</a>
+                            <ul class="depth2">
+                                <li><a href="notice.html">공지사항</a></li>
+                                <li><a href="inquiryboard.html">문의게시판</a></li>
+                                <li><a href="#">회원가입</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="gnb_link">
+                        <li><a href="login.html">Login</a></li>
+                        <li><a href="#">Join</a></li>
+                    </ul>
+                    <ul class="util">
+                        <li>
+                            <a href="#"><img src="images/util_global.png" alt="Global"></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="images/util_facebook.png" alt="Facebook"></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="images/util_instagram.png" alt="Instagram"></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="search_wrap">
+                <div class="top_search">
+                    <h1 class="logo"><a href="index.html"><img src="images/logo_w.png" alt="logo"></a></h1>
+                    <button class="btn_close" type="button">메뉴닫기</button>
+                </div>
+                <div class="bottom_search">
+                    <form>
+                        <fieldset>
+                            <legend>전체검색</legend>
+                            <input class="search" type="text" title="통합검색" placeholder="search">
+                            <button class="btn_search2" type="submit">검색버튼</button>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </header>
+        <div id ="container" class="sub_container exhibition_page">
+            <div class="sub_visual exhibition_visual">
+                <h2 class="visual_tit">EXHIBITIONS</h2>
+            </div>
+            <div class="lnb">
+                <button class="btn_lnb" type="button">Exhibitions</button>
+                <ul class="list_lnb">
+                    <li><a href="about.html">Museum</a></li>
+                    <li><a href="visit.html">Visit</a></li>
+                    <li class="on"><a href="exhibition.html">Exhibitions</a></li>
+                    <li><a href="#">Programs</a></li>
+                    <li><a href="notice.html">News</a></li>
+                </ul>
+                <button class="btn_lnb_right" type="button">현재전시</button>
+                <ul class="list_lnb_right">
+                    <li class="on"><a href="#">현재전시</a></li>
+                    <li><a href="#">예정전시</a></li>
+                    <li><a href="#">지난전시</a></li>
+                    <li><a href="#">소장품</a></li>
+                </ul>
+            </div>
+            <div class="contents">
+                <div class="sub_exhibition">
+                    <h3 class="sub_tit">현재전시</h3>
+                    <ul class="exhibition_list">
+                        <li>
+                            <a href="#">
+                                <img src="images/exhibition_5.jpg" alt="몸짓말">
+                                <div class="txt_wrap">
+                                    <p>2021 교육프로젝트 전시프로그램</p>
+                                    <h4>CORPUS, GESTUS, VOX</h4>
+                                    <h4>몸 짓 말</h4>
+                                    <div class="summary_txt">
+                                        <p><em>기간</em>2021.03.11(목)-2021.06.27(일)</p>
+                                        <p><em>장소</em>경기도미술관 기획전시실</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="img_wrap">
+                                    <img src="images/exhibition_1.jpg" alt="흰 밤 검은 낮">
+                                </div>
+                                <div class="txt_wrap">
+                                    <p>경기아트프로젝트</p>
+                                    <h4>White Night Dark Day</h4>
+                                    <h4>흰 밤 검은 낮</h4>
+                                    <div class="summary_txt">
+                                        <p><em>기간</em>2020.10.29(목)-2021.02.14(일)</p>
+                                        <p><em>장소</em>경기도미술관 기획전시실</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="img_wrap">
+                                    <img src="images/exhibition_2.jpg" alt="어제모레">
+                                </div>
+                                <div class="txt_wrap">
+                                    <p>2020 청년작가전 III 퀀텀점프</p>
+                                    <h4>OUTDATED FUTURE</h4>
+                                    <h4>어제모레</h4>
+                                    <div class="summary_txt">
+                                        <p><em>기간</em>2020.10.13(화)-2021.01.17(일)</p>
+                                        <p><em>장소</em>경기도미술관 프로젝트 갤러리</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="img_wrap">
+                                    <img src="images/exhibition_4.jpg" alt="어제모레">
+                                </div>
+                                <div class="txt_wrap">
+                                    <p>2020 청년작가전 Ⅱ</p>
+                                    <h4>CHAIR FLYING</h4>
+                                    <h4>머리 비행</h4>
+                                    <div class="summary_txt">
+                                        <p><em>기간</em>2020.06.18(목)-2020.09.13(일)</p>
+                                        <p><em>장소</em>경기도미술관 프로젝트 갤러리</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="btn_gray_wrap">
+                        <a class="btn_gray" href="#">더보기</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer id="footer">
+            <div class="top_footer">
+                <ul class="list_menu">
+                    <li><a href="#"><em>개인정보취급방침</em></a></li>
+                    <li><a href="#">정보공개청구</a></li>
+                    <li><a href="#">이용약관</a></li>
+                    <li><a href="#">경영공시</a></li>
+                </ul>
+            </div>
+            <h3 class="footer_logo">
+                <img src="images/footer_logo.png" alt="경기도미술관">
+            </h3>
+            <p class="address">
+                (재)경기문화재단 경기도미술관<br>
+                (15385) 경기도 안산시 단원구 동산로 268(초지동)
+            </p>
+            <p class="copyright">COPYRIGHT ⓒ GGCF.ALL RIGHTS RESERVED.</p>
+            <div class="list_family">
+                <select>
+                    <option value>관련기관</option>
+                    <option value="001">경기문화재단</option>
+                    <option value="002">경기문화재연구원</option>
+                    <option value="003">경기도박물관</option>
+                    <option value="004">백남준아트센터</option>
+                    <option value="005">실학박물관</option>
+                    <option value="006">전곡선사박물관</option>
+                    <option value="007">경기도어린이박물관</option>
+                    <option value="008">경기북부어린이박물관</option>
+                </select>
+            </div>
+            <div class="btn_top" style="display: none;">
+                <a href="#" title="top"></a>
+            </div>
+        </footer>
+    </div>
+    <script src="js/main.js?v=<?php echo time(); ?>"></script>
+</body>
+</html>
